@@ -16,7 +16,6 @@ let package = Package(
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.5.1")
     ],
     targets: [
-        .target(name: "secp256k1"),
         .target(
             name: "Web3Core",
             dependencies: ["BigInt", "secp256k1", "CryptoSwift"]
